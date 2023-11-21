@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/demoblaze/src/test/java">
+        <classes>
+            <class name="SignUp.SignUpTest">
+                <methods>
+                    <include name="SuccessfulSignup"/>
+                </methods>
+            </class>
+            <class name="Login.LoginTest">
+                <methods>
+                    <include name="SuccessfulLogin"/>
+                </methods>
+            </class>
+            <class name="AddToCartTest.AddToCartTest">
+                <methods>
+                    <include name="SuccessfulAddToCart"/>
+                </methods>
+            </class>
+            <class name="CompleteOrder.CompleteOrderTest">
+                <methods>
+                    <include name="SuccessfulPurchase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
